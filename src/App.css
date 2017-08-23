@@ -1,10 +1,44 @@
 .App {
-  text-align: center;
+  
+  width: auto;
+  height: 100vh;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
+
+}
+
+
+header  {
+  background-color:rgba(0, 0, 0, 1);
+  width:100%;
+  z-index:100;
+}
+
+
+footer  {
+  background-color:rgba(0, 0, 0, 0.80);
+  bottom:0px;
+  position:absolute;
+  width:100%;
+  z-index:100;
+  color: white;
+}
+
+
+
+footer .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 20px;
+  text-align: right;
+}
+
+header .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40px;
+  text-align: right;
 }
 
 .App-header {
@@ -21,4 +55,11 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+
+h1 {
+    font-size:120%;
+    display:inline-block;
+    color:white;
 }
