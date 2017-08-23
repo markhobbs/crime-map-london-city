@@ -1,6 +1,6 @@
 {
     "name": "Crimemap UK",
-    "description": "A barebones Node.js app using Express 4",
+    "description": "A play around with React and the googlemaps API",
     "repository": "https://github.com/markhobbs/crimemap-uk.git",
     "logo": "https://node-js-sample.herokuapp.com/node.png",
     "keywords": ["node", "express", "static"]
