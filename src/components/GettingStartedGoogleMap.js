@@ -17,7 +17,7 @@ const SimpleMapExampleGoogleMap = withGoogleMap(props => (
 class GettingStartedGoogleMap extends Component {
     render() {
         return (
-          <div className="App">
+          <div className="App" style={{width: 600, height: 800}}      >
           <img src={logo} className="App-logo" alt="logo" />
             <SimpleMapExampleGoogleMap
             containerElement={
@@ -33,3 +33,7 @@ class GettingStartedGoogleMap extends Component {
   }
   
   export default GettingStartedGoogleMap;
+
+
+
+  
