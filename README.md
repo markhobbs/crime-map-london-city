@@ -14,8 +14,7 @@ You need to obtain a Google Maps API Key through Google to use your own map obje
 "yarn start"
 
 ## Demo
-[Open in the Browser](https://crime-map-london-city.herokuapp.com)
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[Open in the Browser](https://crime-map-london-city.herokuapp.com) <br /> or [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 # References
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app) and uses [react-google-maps](https://www.npmjs.com/package/react-google-maps) to provide the map wrapper [Author] (https://github.com/tomchentw)
