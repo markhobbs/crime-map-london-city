@@ -1,6 +1,8 @@
 ## Introduction
 A play around with React and the googlemaps API to visualise accurate publically available street-crime data within the city of London during July 2014.
-This example could be easily modified to include realtime data sources.  However, currently the api is a static json file within the root of teh project src folder
+This example could be easily modified to include realtime data sources.  However, currently the api is a static json file within the root of the project src folder
+
+![crime-map-london-city](https://github.com/markhobbs/crime-map-london-city/crime-map-london-city.png)
 
 ## Getting Started
 You need to obtain a Google Maps API Key through Google to use your own map object. Follow these steps: Google Maps API Key Reference and edit the header line in index.html with your generated api key
