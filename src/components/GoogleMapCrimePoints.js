@@ -143,7 +143,7 @@ class GoogleMapCrimePoints extends Component {
 
       //Collect data from the crime data api and set the data to state
       //fetch('https://data.police.uk/api/crimes-street/all-crime?poly=52.268,0.543:52.794,0.238:52.130,0.478&date=2017-01')
-      fetch('Api.json')
+      fetch('api.json')
       .then(res => res.json())
       .then(data => {
           // console.log('setting data to state: ',data)
