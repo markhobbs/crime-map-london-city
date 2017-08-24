@@ -1,10 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 //import App from './App';
-//import GettingStartedGoogleMap from './components/GettingStartedGoogleMap';
-import App from './components/GoogleMapCrime';
-import registerServiceWorker from './registerServiceWorker';
+import App from './components/GoogleMapCrimePoints';
 
 ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();

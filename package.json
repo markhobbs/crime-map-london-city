@@ -2,8 +2,9 @@
   "name": "crimemap-uk",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "https://github.com/markhobbs/crimemap-uk",
+  "homepage": "https://github.com/markhobbs/crimemap-uk",
   "dependencies": {
+    "raf": "^3.3.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-google-maps": "^7.2.0",
