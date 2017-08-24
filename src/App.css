@@ -65,9 +65,17 @@ header .App-logo {
   to { transform: rotate(360deg); }
 }
 
-
 h1 {
-    font-size:160%;
-    display:inline-block;
-    color:white;
+  font-size:160%;
+  display:inline-block;
+  color:white;
 }
+
+
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size:140%;
+  }
+}
+
+
