@@ -1,8 +1,8 @@
 {
-  "name": "crimemap-uk",
-  "version": "0.1.0",
+  "name": "crime-map-london-city",
+  "version": "1.0.2",
   "private": true,
-  "homepage": "https://github.com/markhobbs/crimemap-uk",
+  "homepage": "https://github.com/markhobbs/crime-map-london-city",
   "dependencies": {
     "raf": "^3.3.2",
     "react": "^15.6.1",
