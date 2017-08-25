@@ -4,12 +4,12 @@
   "private": true,
   "homepage": "https://github.com/markhobbs/crime-map-london-city",
   "dependencies": {
-    "node-sass-chokidar": "0.0.3",
     "raf": "^3.3.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-google-maps": "^7.2.0",
-    "react-scripts": "1.0.11"
+    "react-scripts": "1.0.11",
+    "node-sass-chokidar": "0.0.3"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
