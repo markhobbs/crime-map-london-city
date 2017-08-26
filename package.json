@@ -2,16 +2,22 @@
   "name": "crime-map-london-city",
   "version": "1.0.2",
   "private": true,
-  "homepage": "https://github.com/markhobbs/crime-map-london-city",
+  "homepage": "https://github.com",
   "dependencies": {
+    "enzyme": "^2.9.1",
+    "gh-pages": "^1.0.0",
+    "node-sass-chokidar": "0.0.3",
     "raf": "^3.3.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-google-maps": "^7.2.0",
     "react-scripts": "1.0.11",
-    "node-sass-chokidar": "0.0.3"
+    "react-test-renderer": "^15.6.1",
+    "react-icons": "^2.2.5"
   },
   "scripts": {
+    "predeploy": "cd build  && serve",
+    "deploy": "gh-pages -d build",
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "start": "react-scripts start",
@@ -20,6 +26,8 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "eslint": "^4.5.0"
+    "eslint": "^4.5.0",
+    "expect": "^1.20.2",
+    "jest-enzyme": "^3.8.0"
   }
 }

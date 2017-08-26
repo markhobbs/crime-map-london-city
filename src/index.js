@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import App from './App';
-import App from './components/GoogleMapCrimePoints';
+import GoogleMapCrimePoints from './components/GoogleMapCrimePoints';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<GoogleMapCrimePoints />, document.getElementById('root'));

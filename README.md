@@ -13,6 +13,11 @@ You need to obtain a Google Maps API Key through Google to use your own map obje
 "yarn test"
 "yarn start"
 
+Sass support.  Download a http server to preview production builds locally "yarn predeploy" 
+
+This project uses serve...
+"predeploy": "cd build  && serve"
+
 ## Demo
 [Open in the Browser](https://crime-map-london-city.herokuapp.com) or  <br /><br /> [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
